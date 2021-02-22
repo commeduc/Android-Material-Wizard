@@ -1,24 +1,24 @@
-package com.markosullivan.wizards;
+package cm.clear.helep.wizards;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.os.Bundle;
-import android.support.v4.app.DialogFragment;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.ViewPager;
+import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.markosullivan.wizards.wizard.model.AbstractWizardModel;
-import com.markosullivan.wizards.wizard.model.ModelCallbacks;
-import com.markosullivan.wizards.wizard.model.Page;
-import com.markosullivan.wizards.wizard.ui.PageFragmentCallbacks;
-import com.markosullivan.wizards.wizard.ui.ReviewFragment;
-import com.markosullivan.wizards.wizard.ui.StepPagerStrip;
+import cm.clear.helep.wizards.wizard.model.AbstractWizardModel;
+import cm.clear.helep.wizards.wizard.model.ModelCallbacks;
+import cm.clear.helep.wizards.wizard.model.Page;
+import cm.clear.helep.wizards.wizard.ui.PageFragmentCallbacks;
+import cm.clear.helep.wizards.wizard.ui.ReviewFragment;
+import cm.clear.helep.wizards.wizard.ui.StepPagerStrip;
 
 import java.util.List;
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.markosullivan.wizards.wizard.ui;
+package cm.clear.helep.wizards.wizard.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.ListFragment;
+import androidx.fragment.app.ListFragment;
 import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,9 +28,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.markosullivan.wizards.R;
-import com.markosullivan.wizards.wizard.model.MultipleFixedChoicePage;
-import com.markosullivan.wizards.wizard.model.Page;
+import cm.clear.helep.wizards.R;
+import cm.clear.helep.wizards.wizard.model.MultipleFixedChoicePage;
+import cm.clear.helep.wizards.wizard.model.Page;
 
 import java.util.ArrayList;
 import java.util.HashSet;

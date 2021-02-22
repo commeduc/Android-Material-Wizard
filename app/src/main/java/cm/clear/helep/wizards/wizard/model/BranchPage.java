@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.markosullivan.wizards.wizard.model;
+package cm.clear.helep.wizards.wizard.model;
 
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.text.TextUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.markosullivan.wizards.wizard.ui.SingleChoiceFragment;
+import cm.clear.helep.wizards.wizard.ui.SingleChoiceFragment;
 
 /**
  * A page representing a branching point in the wizard. Depending on which choice is selected, the

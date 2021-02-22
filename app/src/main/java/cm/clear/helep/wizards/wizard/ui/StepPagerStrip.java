@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.markosullivan.wizards.wizard.ui;
+package cm.clear.helep.wizards.wizard.ui;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -27,7 +27,7 @@ import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.markosullivan.wizards.R;
+import cm.clear.helep.wizards.R;
 
 public class StepPagerStrip extends View {
     private static final int[] ATTRS = new int[]{

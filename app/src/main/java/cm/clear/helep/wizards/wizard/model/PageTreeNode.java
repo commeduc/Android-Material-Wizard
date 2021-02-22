@@ -14,8 +14,14 @@
  * limitations under the License.
  */
 
-package com.markosullivan.wizards.wizard.ui;
+package cm.clear.helep.wizards.wizard.model;
 
-public interface PageFragmentCallbacks {
-    com.markosullivan.wizards.wizard.model.Page onGetPage(String key);
+import java.util.ArrayList;
+
+/**
+ * Represents a node in the page tree. Can either be a single page, or a page container.
+ */
+public interface PageTreeNode {
+    public Page findByKey(String key);
+    public void flattenCurrentPageSequence(ArrayList<Page> dest);
 }

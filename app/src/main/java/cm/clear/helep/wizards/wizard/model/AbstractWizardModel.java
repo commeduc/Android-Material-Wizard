@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.markosullivan.wizards.wizard.model;
+package cm.clear.helep.wizards.wizard.model;
 
 import android.content.Context;
 import android.os.Bundle;

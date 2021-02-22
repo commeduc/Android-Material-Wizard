@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.markosullivan.wizards.wizard.model;
+package cm.clear.helep.wizards.wizard.model;
 
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.text.TextUtils;
 
-import com.markosullivan.wizards.wizard.ui.CustomerInfoFragment;
+import cm.clear.helep.wizards.wizard.ui.CustomerInfoFragment;
 
 import java.util.ArrayList;
 

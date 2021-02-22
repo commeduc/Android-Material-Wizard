@@ -14,13 +14,8 @@
  * limitations under the License.
  */
 
-package com.markosullivan.wizards.wizard.model;
+package cm.clear.helep.wizards.wizard.ui;
 
-/**
- * Callback interface connecting {@link Page}, {@link AbstractWizardModel}, and model container
- * objects (e.g. {@link mos.present.MainActivity}.
- */
-public interface ModelCallbacks {
-    void onPageDataChanged(Page page);
-    void onPageTreeChanged();
+public interface PageFragmentCallbacks {
+    cm.clear.helep.wizards.wizard.model.Page onGetPage(String key);
 }
